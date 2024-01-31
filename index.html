@@ -374,5 +374,54 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button class="modal-close-btn">
+                <svg class="modal-close-icon" width="8" height="8" aria-label="close modal icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="form-desk">Leave your contacts and we will call you back</p>
+            <form class="call-back">
+                <div class="call-back-wrapper">
+                    <label class="call-back-lbl"  for="">
+                        Name
+                        <input class="call-back-input" type="text">
+                    </label>
+                </div>
+                <div class="call-back-wrapper">
+                    <label class="call-back-lbl" for="">
+                        Phone
+                        <input class="call-back-input" type="text">
+                    </label>
+                </div>
+                <div class="call-back-wrapper">
+                    <label class="call-back-lbl" for="">
+                        Email
+                        <input class="call-back-input" type="text">
+                    </label>
+                </div>
+                <div class="call-back-wrapper">
+                    <label class="call-back-lbl" for="">
+                        Comments
+                        <textarea 
+                        class="call-back-comment"
+                        name="" 
+                        id="" 
+                        cols="30" 
+                        rows="10" 
+                        placeholder="Text input"></textarea>
+                    </label>
+                </div>
+                <div class="checkbox-privacy">
+                    <input class="check-prv" type="checkbox">
+                    <label class="review-checkbox" for="">
+                        I accept the terms and conditions of the <a href="">Privacy Policy</a>
+                    </label>
+                </div>
+                <button class="submit-btn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
