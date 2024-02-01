@@ -690,15 +690,29 @@ h2 {
 }
 
 .checkbox-privacy {
-    margin-bottom: 24px;
+    margin-bottom: 16px
 }
 
 .review-checkbox {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     text-align: left;
     color: #8E8F99;
+}
+
+.submit-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
