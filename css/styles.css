@@ -593,8 +593,8 @@ h2 {
     position: absolute;
     align-items: center;
     justify-content: center;
-    max-width: 24px;
-    max-height: 24px;
+    width: 24px;
+    height: 24px;
     top: 24px;
     right: 24px;
     border-radius: 50%;
