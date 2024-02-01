@@ -623,7 +623,7 @@ h2 {
 }
 
 .call-back-wrapper {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .call-back-lbl {
@@ -674,8 +674,31 @@ h2 {
     border-radius: 4px;
     border: 1px solid #2E2F4266;
     background-color: transparent;
-    padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    padding: 8px 16px;
+    resize: none;
+}
+
+.call-back-comment:focus {
+    border-color: #4D5AE5;
+}
+
+.checkbox-privacy {
+    margin-bottom: 24px;
+}
+
+.review-checkbox {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #8E8F99;
 }
