@@ -417,9 +417,7 @@ h2 {
     padding-bottom: 120px;
 }
 
-.prtf-chpt {
-    
-}
+
 
 .prtf {
     font-weight: 500;
@@ -560,11 +558,11 @@ h2 {
     z-index: 999999;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5 ) ;
+    background-color: rgba(46, 47, 66, 0.4);
     opacity: 0;
     visibility: hidden;
     padding-inline-end: none;
-    transition: opacity 250ms linear, visibility 250ms linear;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
@@ -581,8 +579,10 @@ h2 {
     transform: translate(-50%, -50%);
     width: 408px;
     min-height: 584px;
-    background-color: #fcfcfc;
+    background-color: #FCFCFC;
     border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    
 }
 
 .modal-close-icon {
@@ -604,3 +604,34 @@ h2 {
     border-radius: 50px;
 }
 
+.form-desk {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.call-back-wrapper {
+    margin-bottom: 18px;
+}
+
+.call-back-lbl {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #8E8F99;;
+}
+
+.call-back-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #2E2F4266;
+    background-color: transparent;
+    padding-left: 37px;
+}
