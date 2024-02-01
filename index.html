@@ -384,10 +384,15 @@
             <p class="form-desk">Leave your contacts and we will call you back</p>
             <form class="call-back">
                 <div class="call-back-wrapper">
-                    <label class="call-back-lbl"  for="">
-                        Name
-                        <input class="call-back-input" type="text">
-                    </label>
+                    <label class="call-back-lbl"  for="user-name">Name</label>
+                    <input
+                    class="call-back-input"
+                    id="user-name"
+                    name="user-name"
+                    type="text"
+                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+                    title="Oleksii"
+                    />
                 </div>
                 <div class="call-back-wrapper">
                     <label class="call-back-lbl" for="">
