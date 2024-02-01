@@ -391,36 +391,54 @@
                     name="user-name"
                     type="text"
                     pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
-                    title="Oleksii"
+                    title="Tetiana "
+                    required
                     />
                 </div>
                 <div class="call-back-wrapper">
-                    <label class="call-back-lbl" for="">
-                        Phone
-                        <input class="call-back-input" type="text">
-                    </label>
+                    <label class="call-back-lbl" for="user-tel">Phone</label>
+                    <input 
+                    class="call-back-input" 
+                    id="user-tel"
+                    name="user-tel"
+                    type="tel"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                    title="000-000-00-00"
+                    required
+                    />
                 </div>
                 <div class="call-back-wrapper">
-                    <label class="call-back-lbl" for="">
-                        Email
-                        <input class="call-back-input" type="text">
-                    </label>
+                    <label class="call-back-lbl" for="user-mail">Email</label>
+                    <input 
+                    class="call-back-input" 
+                    id="user-mail"
+                    name="user-mail"
+                    type="email"
+                    title="example@mail.com"
+                    />
                 </div>
                 <div class="call-back-wrapper">
-                    <label class="call-back-lbl" for="">
+                    <label class="call-back-lbl" for="user-comment">
                         Comments
                         <textarea 
                         class="call-back-comment"
-                        name="" 
-                        id="" 
+                        name="user-comment" 
+                        id="user-comment" 
                         cols="30" 
                         rows="10" 
                         placeholder="Text input"></textarea>
                     </label>
                 </div>
                 <div class="checkbox-privacy">
-                    <input class="check-prv" type="checkbox">
-                    <label class="review-checkbox" for="">
+                    <input 
+                    class="check-prv" 
+                    id="user-privacy-policy"
+                    name="user-privacy-policy"
+                    type="checkbox"
+                    value="true"
+                    required
+                    />
+                    <label class="review-checkbox" for="user-privacy-policy">
                         I accept the terms and conditions of the <a href="">Privacy Policy</a>
                     </label>
                 </div>
