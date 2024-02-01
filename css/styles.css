@@ -637,3 +637,13 @@ h2 {
     background-color: transparent;
     padding-left: 37px;
 }
+
+.icon-wrapper {
+    position: relative;
+}
+
+.call-back-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+}
