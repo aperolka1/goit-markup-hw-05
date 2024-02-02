@@ -560,6 +560,16 @@ h2 {
 .subscribe-form {
     display: flex;
     gap: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    color: #FFFFFF;
 }
 
 .email-item {
