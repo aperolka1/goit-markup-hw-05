@@ -551,8 +551,10 @@ h2 {
     background-color: #31D0AA;
 }
 
-.mail-label {
-    display: block;
+.subscribe-name {
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .subscribe-form {
@@ -572,13 +574,22 @@ h2 {
 
 .subscribe-btn {
     display: flex;
-    width: 165px;
+    align-items: center;
+    justify-content: center;
+    min-width: 165px;
     height: 40px;
     border: none;
     border-radius: 4px;
     padding: 8px 24px;
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.subscribe-icon {
+    margin-left: 16px;
 }
 
 /* ============== /BACKDROP ============== */
