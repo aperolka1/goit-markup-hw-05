@@ -790,6 +790,10 @@ h2 {
     color: #4d5ae5;
 }
 
+.call-back-input:focus+.icon {
+    fill: #4D5AE5;
+}
+
 .check-prv:checked + .review-checkbox > .privacy-done {
     align-items: center;
     justify-content: center;
