@@ -743,6 +743,10 @@ h2 {
     resize: none;
 }
 
+.call-back-wrapper-com {
+    margin-bottom: 24px;
+}
+
 .call-back-comment:focus {
     border-color: #4D5AE5;
 }
@@ -777,6 +781,8 @@ h2 {
 
 .privacy-done {
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 16px;
     height: 16px;
     border: 1px solid #2E2F4266;
