@@ -768,3 +768,18 @@ input::placeholder {
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.privacy-done {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #2E2F4266;
+    border-radius: 2px;
+    fill: transparent;
+    cursor: pointer;
+}
+
+.check-prv:checked + .review-checkbox > .privacy-done {
+    fill: #F4F4FD;
+    background-color: #404bbf;
+    bottom: none;
+}
