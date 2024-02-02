@@ -557,6 +557,7 @@ h2 {
 
 .subscribe-form {
     display: flex;
+    gap: 24px;
 }
 
 .email-item {
